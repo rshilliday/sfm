@@ -28,3 +28,11 @@ jupyter notebook
 Open main.ipynb and hit "run all" to generate a 3D reconstruction of the "templeRing" dataset.
 
 To generate a reconstruction of the Viking dataset, in the second cell of main.ipynb change n_imgs to 49 and change the imgset parameter of `find_features()` to 'Viking', and then hit "run all".
+
+If you would like to run this code on another dataset, you're welcome to do so, and the changes you'll need to make are as follows:
+
+1. Go to the `find_features()` function in matching.py. 
+2. After the `elif imgset == 'Viking:` conditional block, add the following:
+  - test
+
+

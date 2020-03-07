@@ -31,13 +31,13 @@ To generate a reconstruction of the Viking dataset, in the second cell of main.i
 
 If you would like to run this code on another dataset, you're welcome to do so, and the changes you'll need to make are as follows:
 
-1. Go to the `find_features()` function in matching.py. 
+1. Go to the `find_features()` function in matching.py 
 2. After the `elif imgset == 'Viking:` conditional block, add the following:
 ```
 elif imgset == '<Name-of-your-image-set-here>':
   img = cv2.imread(f'./datasets/<folder-with-your-images>/{i:02d}.<file-extension>', cv2.IMREAD_GRAYSCALE)
   K = # You will have to proivde an intrinsics matrix here
 ```
-Then in the 2nd cell of main.ipynb, change n_imgs to however many images are in your dataset, and change the imgset parameter in `find_features` to the name of your image set, then hit run all.
+3. Then in the 2nd cell of main.ipynb, change n_imgs to however many images are in your dataset, and change the imgset parameter in `find_features` to the name of your image set, then hit run all.
 
 Please note that my implementation assumes that all images are the same size and are taken in a ring around the object you want to reconstruct. So for example, the Viking images range from 00.jpg to 49.jpg where all consecutive images are adjacent and 00 and 49 are also adjacent.

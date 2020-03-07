@@ -9,7 +9,7 @@ iv) Refine camera parameters and 3D point coordinates with bundle adjustment reg
 
 Here are examples of the output I was able to generate:
 
-![](results/side-by-side.png)
+![](results/results_collage.png)
 
 
 If desired, clone this repository and setup the conda environment:

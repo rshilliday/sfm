@@ -40,4 +40,4 @@ elif imgset == '<Name-of-your-image-set-here>':
 ```
 3. Then in the 2nd cell of main.ipynb, change n_imgs to however many images are in your dataset, and change the imgset parameter in `find_features` to the name of your image set, then hit run all.
 
-Please note that my implementation assumes that all images are the same size, are taken in a ring around the object you want to reconstruct and are named from 00.jpg (or .png etc) to n_imgs.jpg. So for example, the Viking images range from 00.jpg to 49.jpg where all consecutive images are adjacent and 00 and 49 are also adjacent.
+Please note that my implementation assumes that all images are the same size, are taken in a ring around the object you want to reconstruct and are named from 00.jpg (or .png etc) to n_imgs.jpg. So for example, the Viking images range from 00.jpg to 48.jpg where all consecutive images are adjacent and 00 and 48 are also adjacent.

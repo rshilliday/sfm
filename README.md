@@ -2,10 +2,10 @@
 
 Structure from motion is an algorithm that generates a 3D reconstruction (pointcloud) from a sequence of 2D images. Instructions on running the repo can be found below. The rough steps of my pipeline are: 
 
-i) Match keypoints between images  
-ii) Find a good image pair to initialize the reconstruction (many matches and significant rotation between images)  
-iii) Extend the reconstruction by resecting adjacent images with PnP and triangulating new points  
-iv) Refine camera parameters and 3D point coordinates with bundle adjustment regularly
+**i)** Match keypoints between images  
+**ii)** Find a good image pair to initialize the reconstruction (many matches and significant rotation between images)  
+**iii)** Extend the reconstruction by resecting adjacent images with PnP and triangulating new points  
+**iv)** Refine camera parameters and 3D point coordinates with bundle adjustment regularly
 
 Here are examples of the output I was able to generate:
 

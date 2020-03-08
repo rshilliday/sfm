@@ -1,5 +1,6 @@
-name: sfm
+name: sfm5
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
@@ -7,7 +8,7 @@ dependencies:
   - backcall=0.1.0=py36_0
   - blas=1.0=mkl
   - bleach=3.1.0=py36_0
-  - ca-certificates=2020.1.1=0
+  - ca-certificates=2019.11.28=hecc5488_0
   - certifi=2019.11.28=py36_0
   - cycler=0.10.0=py36_0
   - dbus=1.13.12=h746ee38_0
@@ -60,8 +61,10 @@ dependencies:
   - nbformat=4.4.0=py36_0
   - ncurses=6.1=he6710b0_1
   - notebook=6.0.2=py36_0
+  - numpy=1.18.1=py36h4f9e942_0
   - numpy-base=1.18.1=py36hde5b4d6_1
-  - openssl=1.1.1d=h7b6447c_3
+  - openssl=1.1.1d=h516909a_0
+  - pandas=1.0.1=py36hb3f55d8_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py36_1
   - parso=0.5.2=py_0
@@ -73,6 +76,7 @@ dependencies:
   - prompt_toolkit=3.0.2=py_0
   - ptyprocess=0.6.0=py36_0
   - pygments=2.5.2=py_0
+  - pyntcloud=0.1.2=py_0
   - pyparsing=2.4.6=py_0
   - pyqt=5.9.2=py36h05f1152_2
   - pyrsistent=0.15.6=py36h7b6447c_0
@@ -105,8 +109,7 @@ dependencies:
   - pip:
     - fastscript==0.1.4
     - nbdev==0.2.9
-    - numpy==1.18.1
     - opencv-contrib-python==3.4.2.16
     - packaging==20.1
     - pyyaml==5.3
-prefix: /home/ryan/anaconda3/envs/sfm
+prefix: /home/ryan/anaconda3/envs/sfm5

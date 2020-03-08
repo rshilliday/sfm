@@ -38,6 +38,7 @@ elif imgset == '<Name-of-your-image-set-here>':
   img = cv2.imread(f'./datasets/<folder-with-your-images>/{i:02d}.<file-extension>', cv2.IMREAD_GRAYSCALE)
   K = # You will have to proivde an intrinsics matrix here
 ```
-3. Then in the 2nd cell of main.ipynb, change n_imgs to however many images are in your dataset, and change the imgset parameter in `find_features` to the name of your image set, then hit run all.
+3. Put your folder of images in the datasets folder
+4. Then in the 2nd cell of main.ipynb, change n_imgs to however many images are in your dataset, and change the imgset parameter in `find_features` to the name of your image set, then hit run all
 
 Please note that my implementation assumes that all images are the same size, are taken in a ring around the object you want to reconstruct and are named from 00.jpg (or .png etc) to n_imgs.jpg (up to 99.jpg max). So for example, the Viking images range from 00.jpg to 48.jpg where all consecutive images are adjacent and 00 and 48 are also adjacent.

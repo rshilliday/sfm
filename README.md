@@ -11,7 +11,9 @@ Here are examples of the output I was able to generate:
 
 ![](results/results_collage.png)
 
-Note: temple image set obtained from: http://vision.middlebury.edu/mview/data/. Viking image set was created by me. 
+Note: temple image set obtained from: http://vision.middlebury.edu/mview/data/. Viking image set was created by me.
+
+Main requirements for repo: cv2, numpy, scipy, pyntcloud, random
 
 If desired, clone this repository and setup the conda environment:
 ```
